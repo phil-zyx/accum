@@ -1,4 +1,4 @@
-module github.com/rcdall/accum
+module github.com/phil-zyx/accum
 
 go 1.13
 

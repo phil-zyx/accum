@@ -15,5 +15,9 @@ WORKDIR /go/src/accum
 
 COPY --from=compiler /go/src/accum/bin/server .
 
+# 添加 git commitID
+ARG GitCommit=unknown
+LABEL GitCommit=${GitCommit}
+
 # 默认入口是 game
 ENTRYPOINT ["./server"]
