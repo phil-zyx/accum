@@ -6,7 +6,7 @@ ADD . /go/src/accum
 # 编译
 WORKDIR /go/src/accum
 
-RUN go build -o bin/server  github.com/rcdall/accum/server
+RUN go build -o bin/server  github.com/phil-zyx/accum/src
 
 # 发布阶段
 FROM golang:1.13
