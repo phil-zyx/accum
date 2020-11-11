@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.swp
+*.swo
+*.dylib
+scripts/__pycache__
+.DS_Store
+pb/.DS_Store
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# gs
+**/*pb_test.go
+bin/
+
+# GoLand
+.idea
+
+# tmp
+tmp/
+log/
+gdconf/debug
+default.etcd
+gdconf/tmp
+go.sum
+venv
+.DS_Store
